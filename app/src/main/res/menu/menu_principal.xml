@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/iconoCategorias"
+        android:icon="@drawable/icono_categorias"
+        android:title="Categorias"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/iconoFavoritos"
+        android:icon="@drawable/icono_favoritos"
+        android:title="Favoritos"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/iconoPerfil"
+        android:title="Perfil"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/iconoCerrarSesión"
+        android:title="Cerrar Sesión"
+        app:showAsAction="never" />
+</menu>
